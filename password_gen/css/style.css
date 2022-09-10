@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lara', sans-serif;
+    background-color: rgb(188, 218, 245);
+}
+.box{
+    width: 400px;
+    height:450px;
+    padding: 10px;
+    margin-left: 550px;
+    margin-top: 100px;
+    background-color: rgb(245, 239, 239);
+    position:relative;
+}
+.content{
+    text-align: center;
+    color:#514c7e;
+}
+.input{
+    margin-top: 10px;
+    padding:10px;
+}
+.form-control{
+    border-radius:5px;
+    width:300px;
+    height:40px;
+    border:none;
+}
+.clip{
+    height:40px;
+    width:40px;
+    background:#514c7e;
+    color:rgb(245, 239, 239);
+    border:none;
+    cursor:pointer;
+}
+label{
+    float:left;
+}
+input{
+    float:right;    
+}
+.len{
+    float:right;
+    width:20px;
+    height:25px;
+}
+.btn{
+    padding:10px;
+    position:absolute;
+    top:380px;
+    left:90px;
+    width:220px;
+    height:40px;
+    background:#514c7e;
+    color:rgb(245, 239, 239);
+}
+@media only screen and (min-width: 480px) {
+    body {
+      font-family: 'Lara', sans-serif;
+      background-color: rgb(188, 218, 245);;
+    }
+    .box{
+        width: 400px;
+        height:450px;
+        padding: 10px;
+        margin-left:50px;
+        margin-top: 150px;
+        background-color: rgb(245, 239, 239);
+        position:relative;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    body {
+      font-family: 'Lara', sans-serif;
+      background-color: rgb(188, 218, 245);;
+    }
+    .box{
+        width: 400px;
+        height:450px;
+        padding: 10px;
+        margin-left: 200px;
+        margin-top: 100px;
+        background-color: rgb(245, 239, 239);
+        position:relative;
+    }
+  }
+  @media only screen and (min-width: 992px) {
+    body{
+        font-family: 'Lara', sans-serif;
+        background-color: rgb(188, 218, 245);
+    }
+    .box{
+        width: 400px;
+        height:450px;
+        padding: 10px;
+        margin-left: 550px;
+        margin-top: 100px;
+        background-color: rgb(245, 239, 239);
+        position:relative;
+    }
+  }

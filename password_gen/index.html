@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Password-generator</title>
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+    </head>
+    <body>
+        <div class="box">
+            <div class="content">
+                <h2>Password-Generator</h2>
+                <div class="input">
+                    <input type="text" class="form-control"id=password>
+                    <button type="button" class="clip" onclick="copyPassword()"><i class="fa fa-clipboard"></i></button>
+                </div>
+                <div class="filter">
+                    <h3 style="margin-top:20px;font-size:30px;">Filter</h3><hr>
+                    <form action="">
+                        <br><br>
+                        <label>Capitalize Letters</label>
+                        <input type="radio"id="cap"><br><br>
+                        <label>Small Letters</label>
+                        <input type="radio"><br><br>
+                        <label>Numbers included</label>
+                        <input type="radio"><br><br>
+                        <label>Symbol included</label>
+                        <input type="radio">
+                    </form>
+                </div>
+                <button type="button" class="btn"onclick="genPassword()">Generate Password</button>
+            </div>
+        </div>
+    </body>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/query.js"></script>
+</html>
